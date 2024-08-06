@@ -1,0 +1,554 @@
+m255
+K4
+z2
+!s11f vlog 2023.4 2023.10, Oct 10 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/FPGA/EFINIX/UDP/UDP/ip/udp_i2c/Testbench
+vefx_i2c_master_controller
+Z1 2./efx_i2c_master_controller.v
+Z2 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z3 !s110 1714984426
+!i10b 1
+!s100 5]GaLUo^?7]@dh`SK53791
+IV2W=6`8HoYQzI4G<P58P:1
+S1
+R0
+Z4 w1714814464
+Z5 8./efx_i2c_master_controller.v
+Z6 F./efx_i2c_master_controller.v
+Z7 Fudp_i2c_define.vh
+!i122 2
+L0 46 134
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OW;L;2023.4;77
+r1
+!s85 0
+31
+Z10 !s108 1714984426.000000
+Z11 !s107 udp_i2c_define.vh|./efx_i2c_master_controller.v|
+Z12 !s90 -F=C:/FPGA/EFINIX/UDP/RTL/vlog.opt|-F=|-reportprogress|300|+define+SIM+SIM_MODE+EFX_SIM|-sv|./efx_i2c_master_controller.v|
+!s101 -O0
+!i113 1
+Z13 o-sv -O0
+Z14 !s92 +define+SIM+SIM_MODE+EFX_SIM -sv -O0
+Z15 tShow_source 1 Hazard 1 Svlog 1 ZeroIn 1 CvgOpt 0
+vefx_i2c_slave_controller
+Z16 2./efx_i2c_slave_controller.v
+R2
+Z17 !s110 1714984427
+!i10b 1
+!s100 2N;LE^eHz5CO[0lVYP_ZM0
+IBaU=Fof_R=;7RGJYZze7P1
+S1
+R0
+R4
+Z18 8./efx_i2c_slave_controller.v
+Z19 F./efx_i2c_slave_controller.v
+R7
+!i122 3
+L0 46 119
+R8
+R9
+r1
+!s85 0
+31
+Z20 !s108 1714984427.000000
+Z21 !s107 udp_i2c_define.vh|./efx_i2c_slave_controller.v|
+Z22 !s90 -F=C:/FPGA/EFINIX/UDP/RTL/vlog.opt|-F=|-reportprogress|300|+define+SIM+SIM_MODE+EFX_SIM|-sv|./efx_i2c_slave_controller.v|
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_controller_42020d0b46f7431cb398735cd4a68ca0
+R1
+R2
+R3
+!i10b 1
+!s100 m@FkjDgB2l`k9UnDT6L1E2
+IIKDNa:0FelZckUCEeV9Ag1
+S1
+R0
+R4
+R5
+R6
+!i122 2
+L0 151 156
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_controller_6d7d364d888b4433a8478f528dc3612a
+R16
+R2
+R17
+!i10b 1
+!s100 Y_B8IlENdGmK0C:m^JTF23
+I8U]>Gk;=j;j=l3n_WJT:`0
+S1
+R0
+R4
+R18
+R19
+!i122 3
+L0 136 156
+R8
+R9
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_controller_80357bd6890e4bd9aabbb4897aaeda9f
+Z23 2./udp_i2c.v
+R2
+Z24 !s110 1714984428
+!i10b 1
+!s100 D8TdcURjO`f[_??RlJ5QR3
+IW;=1m]K]I<UIPHK@R[]VY3
+S1
+R0
+Z25 w1714984428
+Z26 8./udp_i2c.v
+Z27 F./udp_i2c.v
+!i122 4
+L0 128 156
+R8
+R9
+r1
+!s85 0
+31
+R20
+!s107 ./udp_i2c.v|
+Z28 !s90 -F=C:/FPGA/EFINIX/UDP/RTL/vlog.opt|-F=|-reportprogress|300|+define+SIM+SIM_MODE+EFX_SIM|-sv|./udp_i2c.v|
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_controller_tb
+2./i2c_controller_tb.v
+R2
+R3
+!i10b 1
+!s100 DNWeEM7ZDE_^JC1PiF5UC1
+ImX2KihO`CA=PUV>^JISnd3
+S1
+R0
+R4
+8./i2c_controller_tb.v
+F./i2c_controller_tb.v
+!i122 0
+L0 22 63
+R8
+R9
+r1
+!s85 0
+31
+!s108 1714984425.000000
+!s107 ./i2c_controller_tb.v|
+!s90 -F=C:/FPGA/EFINIX/UDP/RTL/vlog.opt|-F=|-reportprogress|300|+define+SIM+SIM_MODE+EFX_SIM|-sv|./i2c_controller_tb.v|
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_controller_test
+2./i2c_controller_test.v
+R2
+R3
+!i10b 1
+!s100 Se0^kzRcoMKVkXMYBh@hj0
+IlHzHj?SSb`kT<@UWFo9Z81
+S1
+R0
+R4
+8./i2c_controller_test.v
+F./i2c_controller_test.v
+R7
+!i122 1
+L0 19 525
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 udp_i2c_define.vh|./i2c_controller_test.v|
+!s90 -F=C:/FPGA/EFINIX/UDP/RTL/vlog.opt|-F=|-reportprogress|300|+define+SIM+SIM_MODE+EFX_SIM|-sv|./i2c_controller_test.v|
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_master_ctl_42020d0b46f7431cb398735cd4a68ca0
+R1
+R2
+R3
+!i10b 1
+!s100 O`i]c9AI:f?^5ESY[Q_Vd1
+IUho6HChP<S<o34[BIFa`V1
+S1
+R0
+R4
+R5
+R6
+!i122 2
+L0 327 583
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_master_ctl_6d7d364d888b4433a8478f528dc3612a
+R16
+R2
+R17
+!i10b 1
+!s100 TdTfcBc]^K[MjJo:_K;e20
+I1QX`o398]Q_g;<L8<k1=L0
+S1
+R0
+R4
+R18
+R19
+!i122 3
+L0 312 583
+R8
+R9
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f
+R23
+R2
+R24
+!i10b 1
+!s100 GlYgT9@9XcN12o9lTFjNg3
+I[X1Qe:=iGRz<N>J^BY^[e0
+S1
+R0
+R25
+R26
+R27
+!i122 4
+L0 306 583
+R8
+R9
+r1
+!s85 0
+31
+R20
+Z29 !s107 ./udp_i2c.v|
+R28
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_mstrslv_ctl_42020d0b46f7431cb398735cd4a68ca0
+R1
+R2
+R3
+!i10b 1
+!s100 SCI]JNj_2Og@U>nR;[2Tj2
+I;=UbzXTbP8d<W45W6l_DH2
+S1
+R0
+R4
+R5
+R6
+!i122 2
+L0 969 1139
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_mstrslv_ctl_6d7d364d888b4433a8478f528dc3612a
+R16
+R2
+R17
+!i10b 1
+!s100 R[n9bo^WoPnUGk_]=B`m70
+IdVT8<Cmh`KgU>]A[OPEUM1
+S1
+R0
+R4
+R18
+R19
+!i122 3
+L0 954 1139
+R8
+R9
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f
+R23
+R2
+R24
+!i10b 1
+!s100 R0klCGWV?1iU>3Y?BdbPS2
+IDG>oZoB^QnZkFHn@[IkJU1
+S1
+R0
+R25
+R26
+R27
+!i122 4
+L0 950 1147
+R8
+R9
+r1
+!s85 0
+31
+R20
+R29
+R28
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_slave_ctl_42020d0b46f7431cb398735cd4a68ca0
+R1
+R2
+R3
+!i10b 1
+!s100 MY3MaC9D1lI2lGO_XchRh3
+I9zeN@J8ioBkizmdDcHkmL3
+S1
+R0
+R4
+R5
+R6
+!i122 2
+L0 2166 406
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_slave_ctl_6d7d364d888b4433a8478f528dc3612a
+R16
+R2
+R17
+!i10b 1
+!s100 a9o:JzAcLGkj@oJ3iJD683
+IMY:]ISZeZBid<e3ZGQ[[F3
+S1
+R0
+R4
+R18
+R19
+!i122 3
+L0 2151 406
+R8
+R9
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vi2c_slave_ctl_80357bd6890e4bd9aabbb4897aaeda9f
+R23
+R2
+R24
+!i10b 1
+!s100 3<l`jaDB=a^82hh7Y8XZ<0
+IB>N2WAb?1J8zDFi0kSMT;0
+S1
+R0
+R25
+R26
+R27
+!i122 4
+L0 2157 406
+R8
+R9
+r1
+!s85 0
+31
+R20
+R29
+R28
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vpulse_gen_fts_42020d0b46f7431cb398735cd4a68ca0
+R1
+R2
+R3
+!i10b 1
+!s100 zS?Y4]fjAPjDG3`j5m;5O0
+ILlEk71L8l4RdA5P?]l<;]3
+S1
+R0
+R4
+R5
+R6
+!i122 2
+L0 2631 54
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vpulse_gen_fts_6d7d364d888b4433a8478f528dc3612a
+R16
+R2
+R17
+!i10b 1
+!s100 bLL`>z53m[i1e2@3P??jc2
+Im>T_7Q]A@af;lZ81L61Vo0
+S1
+R0
+R4
+R18
+R19
+!i122 3
+L0 2616 54
+R8
+R9
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vpulse_gen_fts_80357bd6890e4bd9aabbb4897aaeda9f
+R23
+R2
+R24
+!i10b 1
+!s100 EM2FeP7?CBQ?dUE?SQNlQ3
+IB^Xo4eSCECOS0M;mdi7Q<0
+S1
+R0
+R25
+R26
+R27
+!i122 4
+L0 2624 54
+R8
+R9
+r1
+!s85 0
+31
+R20
+R29
+R28
+!s101 -O0
+!i113 1
+R13
+R14
+R15
+vudp_i2c
+R23
+R2
+R24
+!i10b 1
+!s100 n@;jE9oTT99JRdJca]gdJ2
+Iiflh<CJ2z4PVm_:nP]P>h1
+S1
+R0
+R4
+R26
+R27
+!i122 4
+L0 49 57
+R8
+R9
+r1
+!s85 0
+31
+R20
+R29
+R28
+!s101 -O0
+!i113 1
+R13
+R14
+R15

@@ -1,0 +1,66 @@
+{
+    "args": [
+        "-o",
+        "udp_i2c",
+        "--base_path",
+        "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "serial_interface",
+            "name": "efx_i2c_controller",
+            "version": "5.0"
+        }
+    ],
+    "conf": {
+        "SLAVE_ADDR": "84",
+        "I2C_FAST_MODE": "0",
+        "I2C_MODE": "\"MASTER\"",
+        "DATA_BYTE_WIDTH": "8",
+        "CLOCK_FREQ": "50",
+        "SPIKE_FILTER_CYCLE": "2"
+    },
+    "output": {
+        "external_source_source": [
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\udp_i2c.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\udp_i2c_define.vh",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\udp_i2c_tmpl.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\udp_i2c_tmpl.vhd"
+        ],
+        "external_example_example": [
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\T20F256_devkit\\i2c_clock_gen.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\T20F256_devkit\\i2c_controller_test.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\T20F256_devkit\\efx_i2c_master_controller.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\T20F256_devkit\\efx_i2c_slave_controller.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\T20F256_devkit\\i2c_T20.sdc",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\T20F256_devkit\\i2c_functions.vh",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\T20F256_devkit\\udp_i2c.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\T20F256_devkit\\udp_i2c_define.vh",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\T20F256_devkit\\i2c_controller_test.peri.xml",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\T20F256_devkit\\i2c_controller_test.xml"
+        ],
+        "external_example_2": [
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Ti60F225_devkit\\i2c_clock_gen.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Ti60F225_devkit\\i2c_controller_test.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Ti60F225_devkit\\efx_i2c_master_controller.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Ti60F225_devkit\\efx_i2c_slave_controller.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Ti60F225_devkit\\i2c_Ti60.sdc",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Ti60F225_devkit\\i2c_functions.vh",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Ti60F225_devkit\\udp_i2c.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Ti60F225_devkit\\udp_i2c_define.vh",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Ti60F225_devkit\\i2c_controller_test.peri.xml",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Ti60F225_devkit\\i2c_controller_test.xml"
+        ],
+        "external_testbench_testbench": [
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Testbench\\i2c_controller_tb.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Testbench\\i2c_controller_test.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Testbench\\efx_i2c_master_controller.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Testbench\\efx_i2c_slave_controller.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Testbench\\modelsim.do",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Testbench\\udp_i2c.v",
+            "C:\\FPGA\\EFINIX\\UDP\\UDP\\ip\\udp_i2c\\Testbench\\udp_i2c_define.vh"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-05-04T09:21:04.319823"
+}
