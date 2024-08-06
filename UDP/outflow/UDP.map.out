@@ -1,0 +1,299 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.2.307.5.10
+[EFX-0000 INFO] Compiled: May 19 2024.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+INFO: Read project database "C:/FPGA/EFINIX/UDP/UDP/UDP.xml"
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "C:/FPGA/EFINIX/UDP/UDP/UDP.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\FPGA\EFINIX\UDP\RTL\udp_tx.sv' (VERI-1482)
+-- Analyzing Verilog file 'C:\FPGA\EFINIX\UDP\RTL\udp_crc.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\FPGA\EFINIX\UDP\RTL\udp_gmii_tx.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\FPGA\EFINIX\UDP\RTL\udp_top.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\FPGA\EFINIX\UDP\RTL\udp_i2c_cnt.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\FPGA\EFINIX\UDP\RTL\udp_state.v' (VERI-1482)
+-- Analyzing Verilog file 'C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v' (VERI-1482)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(345): WARNING: parameter 'IDLE_ST' becomes localparam in 'i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(346): WARNING: parameter 'START_GEN0_ST' becomes localparam in 'i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(347): WARNING: parameter 'WRITE_CMDBYTE0_ST' becomes localparam in 'i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(348): WARNING: parameter 'WRITE_DAT0_ST' becomes localparam in 'i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(349): WARNING: parameter 'START_GEN1_ST' becomes localparam in 'i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(350): WARNING: parameter 'WRITE_CMDBYTE1_ST' becomes localparam in 'i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(351): WARNING: parameter 'RESTART_ST' becomes localparam in 'i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(352): WARNING: parameter 'WRITE_DAT2_ST' becomes localparam in 'i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(353): WARNING: parameter 'STOP_GEN_ST' becomes localparam in 'i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(354): WARNING: parameter 'DONE_ST' becomes localparam in 'i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(993): WARNING: parameter 'CLOCK_PERIOD_NS' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(996): WARNING: parameter 'T_HIGH' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1000): WARNING: parameter 'T_LOW' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1004): WARNING: parameter 'T_HD_START' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1008): WARNING: parameter 'T_SU_START' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1012): WARNING: parameter 'T_HD_DATA' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1015): WARNING: parameter 'T_SU_STOP' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1019): WARNING: parameter 'T_BUF' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1025): WARNING: parameter 'ST_SCL_IDLE' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1026): WARNING: parameter 'ST_SCL_START' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1027): WARNING: parameter 'ST_SCL_LOW_EDGE' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1028): WARNING: parameter 'ST_SCL_WAIT_uC' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1029): WARNING: parameter 'ST_SCL_LOW' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1030): WARNING: parameter 'ST_SCL_HIGH_EDGE' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1031): WARNING: parameter 'ST_SCL_HIGH' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1032): WARNING: parameter 'ST_SCL_STOP_WAIT' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1034): WARNING: parameter 'ST_SLV_SCL_IDLE' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1035): WARNING: parameter 'ST_SLV_SCL_HOLD_SDA' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1036): WARNING: parameter 'ST_SLV_SCL_WAIT_uC' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1037): WARNING: parameter 'ST_SLV_SCL_STOP_WAIT' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1040): WARNING: parameter 'ST_I2C_IDLE' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1041): WARNING: parameter 'ST_I2C_HEADER' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1042): WARNING: parameter 'ST_I2C_ACK_HEADER' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1043): WARNING: parameter 'ST_I2C_RCV_DATA' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1044): WARNING: parameter 'ST_I2C_ACK_DATA' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1045): WARNING: parameter 'ST_I2C_XMIT_DATA' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1046): WARNING: parameter 'ST_I2C_WAIT_ACK' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1047): WARNING: parameter 'ST_I2C_STOP' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1050): WARNING: parameter 'BYTE_CNT' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1051): WARNING: parameter 'XFER_DONE' becomes localparam in 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(2190): WARNING: parameter 'IDLE_WRST' becomes localparam in 'i2c_slave_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(2191): WARNING: parameter 'GEN_WR_STROBE' becomes localparam in 'i2c_slave_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(2192): WARNING: parameter 'GEN_TX_DONE' becomes localparam in 'i2c_slave_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(2194): WARNING: parameter 'IDLE_RDST' becomes localparam in 'i2c_slave_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(2195): WARNING: parameter 'READ_CMDBYTE_ST' becomes localparam in 'i2c_slave_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(2196): WARNING: parameter 'RESTART_ST' becomes localparam in 'i2c_slave_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(2197): WARNING: parameter 'WAIT_4_READ_ST' becomes localparam in 'i2c_slave_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(2198): WARNING: parameter 'READ_ST' becomes localparam in 'i2c_slave_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(2199): WARNING: parameter 'GEN_RD_STROBE' becomes localparam in 'i2c_slave_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(2200): WARNING: parameter 'GEN_RD_VALID' becomes localparam in 'i2c_slave_ctl_80357bd6890e4bd9aabbb4897aaeda9f' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v' (VERI-1482)
+INFO: Analysis took 0.0507516 seconds.
+INFO: 	Analysis took 0.015625 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 58.42 MB, end = 59.496 MB, delta = 1.076 MB
+INFO: 	Analysis peak virtual memory usage = 59.496 MB
+INFO: Analysis resident set memory usage: begin = 59.756 MB, end = 61.916 MB, delta = 2.16 MB
+INFO: 	Analysis peak resident set memory usage = 61.916 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+C:\FPGA\EFINIX\UDP\RTL\udp_top.v(9): INFO: compiling module 'udp_top' (VERI-1018)
+C:\FPGA\EFINIX\UDP\RTL\udp_state.v(9): INFO: compiling module 'udp_state' (VERI-1018)
+C:\FPGA\EFINIX\UDP\RTL\udp_i2c_cnt.v(9): INFO: compiling module 'udp_i2c_cnt' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(103): WARNING: port 'slv_scl_in' is not connected on this instance (VERI-2435)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(103): WARNING: port 'slv_scl_out' remains unconnected for this instance (VERI-1927)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(49): INFO: compiling module 'udp_i2c' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(128): INFO: compiling module 'i2c_controller_80357bd6890e4bd9aabbb4897aaeda9f(CLOCK_FREQ=50,DATA_BYTE_WIDTH=8,I2C_FAST_MODE=0,SLAVE_ADDR=84)' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(306): INFO: compiling module 'i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f(DATA_BYTE_WIDTH=8,CLOCK_FREQ=50)' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(2624): INFO: compiling module 'pulse_gen_fts_80357bd6890e4bd9aabbb4897aaeda9f' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(950): INFO: compiling module 'i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f(CLOCK_FREQ=50)' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1403): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1574): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(1697): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(780): WARNING: expression size 9 truncated to fit in target size 8 (VERI-1209)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(785): WARNING: expression size 9 truncated to fit in target size 8 (VERI-1209)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v(80): WARNING: input port 'slv_scl_in' is not connected on this instance (VDB-1013)
+C:\FPGA\EFINIX\UDP\RTL\udp_i2c_cnt.v(175): WARNING: expression size 10 truncated to fit in target size 8 (VERI-1209)
+C:\FPGA\EFINIX\UDP\RTL\udp_tx.sv(9): INFO: compiling module 'udp_tx' (VERI-1018)
+C:\FPGA\EFINIX\UDP\RTL\udp_crc.v(9): INFO: compiling module 'udp_crc' (VERI-1018)
+C:\FPGA\EFINIX\UDP\RTL\udp_tx.sv(48): WARNING: net 'w_pkt[65][7]' does not have a driver (VDB-1002)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(107): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(49): INFO: compiling module 'udp_gmii_fifo' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(388): INFO: compiling module 'efx_fifo_top_b4a0446cb7684fc0844a0dd181407e9b_renamed_due_excessive_length_1' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(680): INFO: compiling module 'efx_fifo_ram_b4a0446cb7684fc0844a0dd181407e9b(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=64,RD_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(717): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(998): INFO: compiling module 'efx_fifo_ctl_b4a0446cb7684fc0844a0dd181407e9b(FAMILY="TITANIUM",SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=61,PROG_FULL_NEGATE=61,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1)' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(1274): WARNING: expression size 32 truncated to fit in target size 7 (VERI-1209)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(1275): WARNING: expression size 32 truncated to fit in target size 7 (VERI-1209)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(299): INFO: compiling module 'efx_fifo_bin2gray_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=7)' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(128): INFO: compiling module 'efx_fifo_datasync_b4a0446cb7684fc0844a0dd181407e9b(STAGE=2,WIDTH=7)' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(211): INFO: compiling module 'efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=7)' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(211): INFO: compiling module 'efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=6)' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(211): INFO: compiling module 'efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(211): INFO: compiling module 'efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=4)' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(211): INFO: compiling module 'efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=3)' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(211): INFO: compiling module 'efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=2)' (VERI-1018)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(102): WARNING: actual bit length 6 differs from formal bit length 7 for port 'wr_datacount_o' (VERI-1330)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(105): WARNING: actual bit length 6 differs from formal bit length 7 for port 'rd_datacount_o' (VERI-1330)
+C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v(88): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+C:\FPGA\EFINIX\UDP\RTL\udp_gmii_tx.v(9): INFO: compiling module 'udp_gmii_tx' (VERI-1018)
+INFO: Elaboration took 0.0659761 seconds.
+INFO: 	Elaboration took 0.0625 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 59.496 MB, end = 68.192 MB, delta = 8.696 MB
+INFO: 	Elaboration peak virtual memory usage = 68.192 MB
+INFO: Elaboration resident set memory usage: begin = 61.928 MB, end = 71.392 MB, delta = 9.464 MB
+INFO: 	Elaboration peak resident set memory usage = 71.392 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(65): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(100): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(156): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(209): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(322): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(394): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(499): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(561): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(653): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(754): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(884): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.015743 seconds.
+INFO: 	Reading Mapping Library took 0 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 69.232 MB, end = 69.232 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 69.232 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 72.612 MB, end = 72.616 MB, delta = 0.004 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 72.62 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : restart. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:962)
+[EFX-0200 WARNING] Removing redundant signal : MADR[0]. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:964)
+[EFX-0200 WARNING] Removing redundant signal : sdaInS0. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:1130)
+[EFX-0266 WARNING] Module Instance 'u_i2c_mstrslv_ctl' input pin tied to constant (mif_clr=0).
+[EFX-0200 WARNING] Removing redundant signal : slv_sda_out. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:204)
+[EFX-0200 WARNING] Removing redundant signal : slv_sda_oe. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:205)
+[EFX-0200 WARNING] Removing redundant signal : slv_sda_in. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:206)
+[EFX-0200 WARNING] Removing redundant signal : slv_scl_out. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:208)
+[EFX-0200 WARNING] Removing redundant signal : slv_scl_oe. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:209)
+[EFX-0200 WARNING] Removing redundant signal : slv_scl_in. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:210)
+[EFX-0200 WARNING] Removing redundant signal : slv_read. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:213)
+[EFX-0200 WARNING] Removing redundant signal : slv_write. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:214)
+[EFX-0200 WARNING] Removing redundant signal : slv_din[7]. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:215)
+[EFX-0200 WARNING] Removing redundant signal : slv_din[6]. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:215)
+[EFX-0200 WARNING] Removing redundant signal : slv_din[5]. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:215)
+[EFX-0200 WARNING] Removing redundant signal : slv_din[4]. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:215)
+[EFX-0200 WARNING] Removing redundant signal : slv_din[3]. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:215)
+[EFX-0200 WARNING] Removing redundant signal : slv_din[2]. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:215)
+[EFX-0200 WARNING] Removing redundant signal : slv_din[1]. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:215)
+[EFX-0200 WARNING] Removing redundant signal : slv_din[0]. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:215)
+[EFX-0200 WARNING] Removing redundant signal : slv_data_out[7]. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:216)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_i2c_controller.slv_scl_in'. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:80)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_i2c_controller.slv_sda_in'. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:80)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_i2c_controller.slv_din[7]'. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:80)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_i2c_controller.slv_din[6]'. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:80)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_i2c_controller.slv_din[5]'. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:80)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_i2c_controller.slv_din[4]'. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:80)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_i2c_controller.slv_din[3]'. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:80)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_i2c_controller.slv_din[2]'. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:80)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_i2c_controller.slv_din[1]'. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:80)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_i2c_controller.slv_din[0]'. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_i2c\udp_i2c.v:80)
+[EFX-0201 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (C:\FPGA\EFINIX\UDP\UDP\ip\udp_gmii_fifo\udp_gmii_fifo.v:717)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "udp_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_state" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_state" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pulse_gen_fts_80357bd6890e4bd9aabbb4897aaeda9f" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "pulse_gen_fts_80357bd6890e4bd9aabbb4897aaeda9f" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f(CLOCK_FREQ=50)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f(CLOCK_FREQ=50)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f(DATA_BYTE_WIDTH=8,CLOCK_FREQ=50)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f(DATA_BYTE_WIDTH=8,CLOCK_FREQ=50)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2c_controller_80357bd6890e4bd9aabbb4897aaeda9f(CLOCK_FREQ=50,DATA_BYTE_WIDTH=8,I2C_FAST_MODE=0,SLAVE_ADDR=84)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "i2c_controller_80357bd6890e4bd9aabbb4897aaeda9f(CLOCK_FREQ=50,DATA_BYTE_WIDTH=8,I2C_FAST_MODE=0,SLAVE_ADDR=84)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_i2c" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_i2c" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_i2c_cnt" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_i2c_cnt" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_crc" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_crc" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_tx" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_b4a0446cb7684fc0844a0dd181407e9b(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=64,RD_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_b4a0446cb7684fc0844a0dd181407e9b(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=64,RD_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_b4a0446cb7684fc0844a0dd181407e9b(STAGE=2,WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_b4a0446cb7684fc0844a0dd181407e9b(STAGE=2,WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_b4a0446cb7684fc0844a0dd181407e9b(FAMILY="TITANIUM",SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=61,PROG_FULL_NEGATE=61,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_b4a0446cb7684fc0844a0dd181407e9b(FAMILY="TITANIUM",SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=61,PROG_FULL_NEGATE=61,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_b4a0446cb7684fc0844a0dd181407e9b_renamed_due_excessive_length_1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_b4a0446cb7684fc0844a0dd181407e9b_renamed_due_excessive_length_1" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_gmii_fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_gmii_fifo" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_gmii_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_gmii_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 129 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "udp_top" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'I2C_CLK' with 367 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'PLL_RCLK_0' with 89 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'RCLK_0' with 28 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'PLL_RCLK_0_90' with 28 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 277 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 7s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 827, ed: 2630, lv: 11, pw: 1822.07
+[EFX-0000 INFO] ... LUT mapping end (Real time : 5s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'I2C_CLK' with 360 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'PLL_RCLK_0' with 89 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'PLL_RCLK_0_90' with 28 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'RCLK_0' with 28 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 1 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 13s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+INFO: VDB Netlist Checker took 0.014339 seconds.
+INFO: 	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 92.544 MB, end = 92.544 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 110.86 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 98.768 MB, end = 98.824 MB, delta = 0.056 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 114.048 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'udp_top' to Verilog file 'C:/FPGA/EFINIX/UDP/UDP/outflow/UDP.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	191
+[EFX-0000 INFO] EFX_LUT4        : 	835
+[EFX-0000 INFO] EFX_FF          : 	520
+[EFX-0000 INFO] EFX_SRL8        : 	14
+[EFX-0000 INFO] EFX_RAM10       : 	1
+[EFX-0000 INFO] =============================== 

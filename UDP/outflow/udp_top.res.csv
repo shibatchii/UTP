@@ -1,0 +1,39 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Jul 06, 2024 19:00:53
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        SRLs	        ADDs	        LUTs	    COMB4s	      RAMs	 DSP/MULTs
+udp_top:udp_top                                             	  1397(132)	      26(0)	   321(126)	   1989(29)	     0(0)	   105(0)	     0(0)	
+ +udp_state:udp_state                                       	     38(38)	       0(0)	       0(0)	     65(65)	     0(0)	     0(0)	     0(0)	
+ +udp_i2c_cnt:udp_i2c_cnt                                   	    184(29)	       0(0)	      23(3)	    297(49)	     0(0)	     0(0)	     0(0)	
+  +udp_i2c:udp_i2c                                          	     155(0)	       0(0)	      20(0)	     248(0)	     0(0)	     0(0)	     0(0)	
+   +u_i2c_controller:i2c_controller_80357bd6890e4bd9aabbb4897aaeda9f(CLOCK_FREQ=50,DATA_BYTE_WIDTH=8,I2C_FAST_MODE=0,SLAVE_ADDR=84)	     155(0)	       0(0)	      20(0)	     248(0)	     0(0)	     0(0)	     0(0)	
+    +genblk1.master_ctl_inst:i2c_master_ctl_80357bd6890e4bd9aabbb4897aaeda9f(DATA_BYTE_WIDTH=8,CLOCK_FREQ=50)	    155(42)	       0(0)	      20(0)	    248(78)	     0(0)	     0(0)	     0(0)	
+     +u_pgfts_rdflag:pulse_gen_fts_80357bd6890e4bd9aabbb4897aaeda9f	       6(6)	       0(0)	       0(0)	       6(6)	     0(0)	     0(0)	     0(0)	
+     +u_i2c_mstrslv_ctl:i2c_mstrslv_ctl_80357bd6890e4bd9aabbb4897aaeda9f(CLOCK_FREQ=50)	   107(107)	       0(0)	     20(20)	   164(164)	     0(0)	     0(0)	     0(0)	
+ +udp_tx:udp_tx                                             	     83(51)	       0(0)	     21(21)	   355(282)	     0(0)	     0(0)	     0(0)	
+  +udp_crc:udp_crc                                          	     32(32)	       0(0)	       0(0)	     73(73)	     0(0)	     0(0)	     0(0)	
+ +udp_gmii_fifo:udp_gmii_fifo                               	      54(0)	      14(0)	      21(0)	      40(0)	     0(0)	     1(0)	     0(0)	
+  +u_efx_fifo_top:efx_fifo_top_b4a0446cb7684fc0844a0dd181407e9b_renamed_due_excessive_length_1	      54(4)	      14(0)	      21(0)	      40(0)	     0(0)	     1(0)	     0(0)	
+   +xefx_fifo_ram:efx_fifo_ram_b4a0446cb7684fc0844a0dd181407e9b(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=64,RD_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,RAM_MUX_RATIO=1)	       0(0)	       0(0)	       0(0)	       0(0)	     0(0)	     1(1)	     0(0)	
+   +xefx_fifo_ctl:efx_fifo_ctl_b4a0446cb7684fc0844a0dd181407e9b(FAMILY="TITANIUM",SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=61,PROG_FULL_NEGATE=61,PROG_EMPTY_NEGATE=2,OUTPUT_REG=1)	     50(50)	      14(0)	     21(21)	     40(16)	     0(0)	     0(0)	     0(0)	
+    +genblk7.xrd2wr_bin2gray:efx_fifo_bin2gray_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=7)	       0(0)	       0(0)	       0(0)	       6(6)	     0(0)	     0(0)	     0(0)	
+    +genblk7.xrd2wr_addr_sync:efx_fifo_datasync_b4a0446cb7684fc0844a0dd181407e9b(STAGE=2,WIDTH=7)	       0(0)	       7(7)	       0(0)	       0(0)	     0(0)	     0(0)	     0(0)	
+    +genblk7.xrd2wr_gray2bin:efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=7)	       0(0)	       0(0)	       0(0)	       6(1)	     0(0)	     0(0)	     0(0)	
+     +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=6)	       0(0)	       0(0)	       0(0)	       5(1)	     0(0)	     0(0)	     0(0)	
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b	       0(0)	       0(0)	       0(0)	       4(1)	     0(0)	     0(0)	     0(0)	
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=4)	       0(0)	       0(0)	       0(0)	       3(1)	     0(0)	     0(0)	     0(0)	
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=3)	       0(0)	       0(0)	       0(0)	       2(1)	     0(0)	     0(0)	     0(0)	
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=2)	       0(0)	       0(0)	       0(0)	       1(1)	     0(0)	     0(0)	     0(0)	
+    +genblk7.wr2rd_bin2gray:efx_fifo_bin2gray_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=7)	       0(0)	       0(0)	       0(0)	       6(6)	     0(0)	     0(0)	     0(0)	
+    +genblk7.wr2rd_addr_sync:efx_fifo_datasync_b4a0446cb7684fc0844a0dd181407e9b(STAGE=2,WIDTH=7)	       0(0)	       7(7)	       0(0)	       0(0)	     0(0)	     0(0)	     0(0)	
+    +genblk7.wr2rd_gray2bin:efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=7)	       0(0)	       0(0)	       0(0)	       6(1)	     0(0)	     0(0)	     0(0)	
+     +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=6)	       0(0)	       0(0)	       0(0)	       5(1)	     0(0)	     0(0)	     0(0)	
+      +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b	       0(0)	       0(0)	       0(0)	       4(1)	     0(0)	     0(0)	     0(0)	
+       +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=4)	       0(0)	       0(0)	       0(0)	       3(1)	     0(0)	     0(0)	     0(0)	
+        +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=3)	       0(0)	       0(0)	       0(0)	       2(1)	     0(0)	     0(0)	     0(0)	
+         +genblk1.genblk1.u_gray2bin:efx_fifo_gray2bin_b4a0446cb7684fc0844a0dd181407e9b(WIDTH=2)	       0(0)	       0(0)	       0(0)	       1(1)	     0(0)	     0(0)	     0(0)	
+ +udp_gmii_tx:udp_gmii_tx                                   	     29(29)	       0(0)	       0(0)	     37(37)	     0(0)	     0(0)	     0(0)	
+ +edb_top_inst:edb_top                                      	   877(877)	     12(12)	   130(130)	 1166(1166)	     0(0)	 104(104)	     0(0)	

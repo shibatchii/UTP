@@ -1,0 +1,262 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307.5.10 
+Compiled: May 19 2024.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Titanium", Device "Ti180M484" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/FPGA/EFINIX/UDP/UDP/outflow/UDP.dbg.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.0603432 seconds.
+	VDB Netlist Checker took 0.03125 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 37.872 MB, end = 37.872 MB, delta = 0 MB
+	VDB Netlist Checker peak virtual memory usage = 86.136 MB
+VDB Netlist Checker resident set memory usage: begin = 49.624 MB, end = 49.924 MB, delta = 0.3 MB
+	VDB Netlist Checker peak resident set memory usage = 97.28 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'C:/FPGA/EFINIX/UDP/UDP/outflow/UDP.interface.csv'.
+Successfully processed interface constraints file "C:/FPGA/EFINIX/UDP/UDP/outflow/UDP.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #33(jtag_inst1_DRCK) has no fanout.
+Removing input.
+logical_block #35(jtag_inst1_RUNTEST) has no fanout.
+Removing input.
+logical_block #40(jtag_inst1_TMS) has no fanout.
+Removing input.
+Pass 0: Swept away 3 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 3 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 3 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/FPGA/EFINIX/UDP/UDP/outflow/UDP.dbg.vdb".
+Netlist pre-processing took 0.187556 seconds.
+	Netlist pre-processing took 0.09375 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 28.656 MB, end = 47.128 MB, delta = 18.472 MB
+	Netlist pre-processing peak virtual memory usage = 86.136 MB
+Netlist pre-processing resident set memory usage: begin = 40.62 MB, end = 59.096 MB, delta = 18.476 MB
+	Netlist pre-processing peak resident set memory usage = 97.28 MB
+***** Ending stage netlist pre-processing *****
+
+Load Global Network took 2.54653 seconds.
+	Load Global Network took 0.890625 seconds (approximately) in total CPU time.
+Load Global Network virtual memory usage: begin = 53.24 MB, end = 306.732 MB, delta = 253.492 MB
+	Load Global Network peak virtual memory usage = 458.252 MB
+Load Global Network resident set memory usage: begin = 65.02 MB, end = 265.324 MB, delta = 200.304 MB
+	Load Global Network peak resident set memory usage = 416.772 MB
+Reading C:/Efinity/2023.2/arch/.\rr_pb_hier_mapping.xml
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "C:/FPGA/EFINIX/UDP/UDP/work_pnr\UDP.net_proto" took 0.019 seconds
+Creating IO constraints file 'C:/FPGA/EFINIX/UDP/UDP/work_pnr\UDP.io_place'
+Packing took 0.0564711 seconds.
+	Packing took 0.03125 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 347.252 MB, end = 347.252 MB, delta = 0 MB
+	Packing peak virtual memory usage = 458.252 MB
+Packing resident set memory usage: begin = 305.476 MB, end = 305.696 MB, delta = 0.22 MB
+	Packing peak resident set memory usage = 416.772 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/FPGA/EFINIX/UDP/UDP/work_pnr\UDP.net_proto
+Read proto netlist for file "C:/FPGA/EFINIX/UDP/UDP/work_pnr\UDP.net_proto" took 0.001 seconds
+Setup net and block data structure took 0.09 seconds
+Reading core interface constraints from 'C:/FPGA/EFINIX/UDP/UDP/outflow/UDP.interface.csv'.
+Successfully processed interface constraints file "C:/FPGA/EFINIX/UDP/UDP/outflow/UDP.interface.csv".
+Counting 1 clocks that are not assigned to clock resources as global clocks.
+Packed netlist loading took 0.401945 seconds.
+	Packed netlist loading took 0.1875 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 347.252 MB, end = 377.416 MB, delta = 30.164 MB
+	Packed netlist loading peak virtual memory usage = 458.252 MB
+Packed netlist loading resident set memory usage: begin = 305.704 MB, end = 335.5 MB, delta = 29.796 MB
+	Packed netlist loading peak resident set memory usage = 416.772 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+Read router lookahead for device Ti180M484 from file C:/Efinity/2023.2/arch/./troute/timing/titanium/lookahead/C4.lookahead.zst.
+
+Load Router Lookahead took 0.0701699 seconds.
+	Load Router Lookahead took 0.046875 seconds (approximately) in total CPU time.
+Load Router Lookahead virtual memory usage: begin = 385.596 MB, end = 427.116 MB, delta = 41.52 MB
+	Load Router Lookahead peak virtual memory usage = 458.252 MB
+Load Router Lookahead resident set memory usage: begin = 343.62 MB, end = 383.696 MB, delta = 40.076 MB
+	Load Router Lookahead peak resident set memory usage = 416.772 MB
+WARNING(1): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:40] No clocks matched 'jtag_inst1_TCK'
+WARNING(2): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:40] set_output_delay: No valid clock found for -clock
+WARNING(3): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:40] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(4): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:41] No clocks matched 'jtag_inst1_TCK'
+WARNING(5): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:41] set_output_delay: No valid clock found for -clock
+WARNING(6): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:41] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(7): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:42] No clocks matched 'jtag_inst1_TCK'
+WARNING(8): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:42] set_input_delay: No valid clock found for -clock
+WARNING(9): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:42] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(10): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:43] No clocks matched 'jtag_inst1_TCK'
+WARNING(11): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:43] set_input_delay: No valid clock found for -clock
+WARNING(12): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:43] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(13): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:44] No clocks matched 'jtag_inst1_TCK'
+WARNING(14): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:44] set_input_delay: No valid clock found for -clock
+WARNING(15): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:44] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(16): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:45] No clocks matched 'jtag_inst1_TCK'
+WARNING(17): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:45] set_input_delay: No valid clock found for -clock
+WARNING(18): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:45] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(19): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:46] No clocks matched 'jtag_inst1_TCK'
+WARNING(20): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:46] set_input_delay: No valid clock found for -clock
+WARNING(21): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:46] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(22): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:47] No clocks matched 'jtag_inst1_TCK'
+WARNING(23): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:47] set_input_delay: No valid clock found for -clock
+WARNING(24): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:47] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(25): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:48] No clocks matched 'jtag_inst1_TCK'
+WARNING(26): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:48] set_input_delay: No valid clock found for -clock
+WARNING(27): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:48] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(28): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:49] No clocks matched 'jtag_inst1_TCK'
+WARNING(29): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:49] set_input_delay: No valid clock found for -clock
+WARNING(30): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:49] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(31): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:50] No clocks matched 'jtag_inst1_TCK'
+WARNING(32): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:50] set_input_delay: No valid clock found for -clock
+WARNING(33): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:50] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(34): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:51] No clocks matched 'jtag_inst1_TCK'
+WARNING(35): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:51] set_input_delay: No valid clock found for -clock
+WARNING(36): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:51] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(37): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:65] Invalid option value '<USER_PERIOD>' specified for -period
+WARNING(38): [SDC C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc:65] Unable to run 'create_clock' constraint due to warnings found
+
+SDC file 'C:/FPGA/EFINIX/UDP/UDP/../SDC/UDP.sdc' parsed successfully.
+3 clocks (including virtual clocks), 0 inputs and 12 outputs were constrained.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'C:/FPGA/EFINIX/UDP/UDP/outflow/UDP.interface.csv'.
+Successfully processed interface constraints file "C:/FPGA/EFINIX/UDP/UDP/outflow/UDP.interface.csv".
+Writing IO placement constraints to 'C:/FPGA/EFINIX/UDP/UDP/outflow\UDP.interface.io'.
+
+Reading placement constraints from 'C:/FPGA/EFINIX/UDP/UDP/outflow\UDP.interface.io'.
+
+Reading placement constraints from 'C:/FPGA/EFINIX/UDP/UDP/work_pnr\UDP.io_place'.
+WARNING(39): Clock driver jtag_inst1_TCK should use the dedicated clock pad.
+The driver, jtag_inst1_RESET, of control net, jtag_inst1_RESET, should be placed at a dedicated global pad location.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Found 16 synchronizers as follows: 
+	Synchronizer 0:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i12_2
+	Synchronizer 1:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i11_2
+	Synchronizer 2:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i10_2
+	Synchronizer 3:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i9_2
+	Synchronizer 4:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i13_2
+	Synchronizer 5:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i13_2
+	Synchronizer 6:  udp_gmii_fifo/u_efx_fifo_top/genblk2.rd_rst[0]~FF udp_gmii_fifo/u_efx_fifo_top/genblk2.rd_rst[1]~FF
+	Synchronizer 7:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i8_2
+	Synchronizer 8:  udp_gmii_fifo/u_efx_fifo_top/genblk2.wr_rst[0]~FF udp_gmii_fifo/u_efx_fifo_top/genblk2.wr_rst[1]~FF
+	Synchronizer 9:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i14_2
+	Synchronizer 10:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.wr2rd_addr_sync/dff_5/i14_2
+	Synchronizer 11:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i8_2
+	Synchronizer 12:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i9_2
+	Synchronizer 13:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i10_2
+	Synchronizer 14:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i11_2
+	Synchronizer 15:  udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ctl/genblk7.xrd2wr_addr_sync/dff_5/i12_2
+Create C:/FPGA/EFINIX/UDP/UDP/outflow\UDP_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+Starting Global Placer with 8 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1      380977            2926         1.4%
+          2      261817            2929         2.7%
+          3      184831            2655         4.6%
+          4      158291            2528         7.2%
+          5      136158            2485        13.7%
+          6      114773            2505        30.4%
+          7       99753            2493        52.6%
+          8       96760            2493        59.2%
+          9       94507            2587        64.8%
+         10       93082            2507        68.3%
+         11       95981            2507        69.4%
+         12       95655            2516        71.9%
+         13       95187            2518        74.2%
+         14       94544            2513        76.9%
+         15       94641            2556        79.5%
+         16       94168            2556        80.8%
+         17       93828            2657        81.7%
+         18       93769            2657        84.0%
+         19       94439            2663        85.3%
+         20       94332            2556        86.3%
+         21       93724            2546        87.4%
+         22       94349            2546        89.0%
+         23       85716            2540        89.9%
+         24       84810            2517        92.3%
+         25       84391            2513        93.4%
+         26       84101            2532        94.3%
+         27       84352            2548        95.1%
+         28       84601            2537        96.3%
+         29       84879            2546        97.1%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0       84101            1353        30.0
+          1       81777            1365        30.0
+          2       76785            1346        29.8
+          3       73589            1371        29.4
+          4       70996            1220        28.9
+          5       68649            1220        28.2
+          6       67678            1220        27.5
+          7       66003            1220        26.6
+          8       65514            1220        25.7
+          9       64696            1220        24.7
+         10       64218            1220        23.5
+         11       63223            1220        22.4
+         12       62673            1220        21.3
+         13       62191            1350        20.2
+         14       61895            1350        19.1
+         15       61580            1350        17.9
+         16       60912            1350        16.8
+         17       60528            1356        15.7
+         18       59979            1385        14.7
+         19       59405            1385        13.7
+         20       59159            1385        12.7
+         21       58752            1385        11.8
+         22       58278            1368        10.9
+         23       58056            1368        10.1
+         24       57821            1334         9.3
+         25       57595            1334         8.6
+         26       57093            1356         7.9
+         27       56973            1365         7.3
+         28       56614            1380         6.7
+         29       56546            1380         6.1
+         30       56273            1380         5.6
+         31       56125            1380         5.1
+         32       55842            1376         4.6
+Generate C:/FPGA/EFINIX/UDP/UDP/outflow\UDP_after_qp.qdelay
+Placement successful: 3076 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.154487 at 10,22
+Congestion-weighted HPWL per net: 12.3219
+
+Reading placement constraints from 'C:/FPGA/EFINIX/UDP/UDP/outflow/UDP.qplace'.
+Finished Realigning Types (655 blocks needed type change)
+Run checks after placement.
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'C:/FPGA/EFINIX/UDP/UDP/outflow/UDP.place'
+Placement took 47.8866 seconds.
+	Placement took 16.625 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 427.116 MB, end = 467.256 MB, delta = 40.14 MB
+	Placement peak virtual memory usage = 1066.44 MB
+Placement resident set memory usage: begin = 383.7 MB, end = 419.86 MB, delta = 36.16 MB
+	Placement peak resident set memory usage = 1012.31 MB
+***** Ending stage placement *****
+

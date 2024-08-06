@@ -1,0 +1,60 @@
+
+# Efinity Interface Configuration
+# Version: 2023.2.307.5.10
+# Date: 2024-07-06 19:02
+
+# Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+clkout, 201, 643, -1, PLL_RCLK_0
+clkout, 202, 643, -1, PLL_RCLK_0
+clkout, 334, 293, -1, PLL_RCLK_0
+clkout, 334, 294, -1, PLL_RCLK_0
+clkout, 334, 304, -1, PLL_RCLK_0
+clkout, 334, 336, -1, PLL_RCLK_0_90
+output, 140, 0, 4, __bypass__, __gnd__
+input, 127, 0, 1, __bypass__, ARSTN
+input, 334, 323, 1, __bypass__, I2C_CLK
+input, 0, 5, 5, __bypass__, jtag_inst1_CAPTURE
+input, 0, 3, 5, __bypass__, jtag_inst1_DRCK
+input, 0, 4, 5, __bypass__, jtag_inst1_RESET
+input, 0, 4, 9, __bypass__, jtag_inst1_RUNTEST
+input, 0, 3, 3, __bypass__, jtag_inst1_SEL
+input, 0, 5, 1, __bypass__, jtag_inst1_SHIFT
+input, 0, 4, 3, __bypass__, jtag_inst1_TCK
+input, 0, 3, 9, __bypass__, jtag_inst1_TDI
+output, 0, 4, 0, __bypass__, jtag_inst1_TDO
+input, 0, 4, 1, __bypass__, jtag_inst1_TMS
+input, 0, 5, 3, __bypass__, jtag_inst1_UPDATE
+output, 26, 0, 2, __bypass__, LED[2]
+output, 24, 0, 2, __bypass__, LED[3]
+output, 121, 0, 0, __bypass__, LED[4]
+output, 130, 0, 0, __bypass__, LED[5]
+output, 105, 0, 2, __bypass__, LED[6]
+output, 112, 0, 2, __bypass__, LED[7]
+input, 334, 9, 3, __bypass__, MST_SCL_IN
+output, 334, 11, 2, __bypass__, MST_SCL_OE
+output, 334, 10, 2, __bypass__, MST_SCL_OUT
+input, 334, 10, 3, __bypass__, MST_SDA_IN
+output, 334, 13, 0, __bypass__, MST_SDA_OE
+output, 334, 12, 0, __bypass__, MST_SDA_OUT
+input, 136, 0, 1, __bypass__, PHYRSTN
+input, 334, 15, 1, __bypass__, PLL_LOCK
+input, 334, 321, 1, __bypass__, PLL_RCLK_0
+input, 334, 324, 1, __bypass__, PLL_RCLK_0_90
+input, 334, 318, 1, __bypass__, RCLK_0
+optional input, 334, 240, 1, __bypass__, RCLK_PLL_0
+output, 141, 0, 2, __bypass__, RSTN_0
+input, 144, 0, 5, __bypass__, RSTN_0_IN
+output, 334, 335, 2, __bypass__, TCLK_0_0
+output, 334, 336, 0, __bypass__, TCLK_1_0
+output, 201, 643, 0, __bypass__, TXD_0[0]
+output, 199, 643, 2, __bypass__, TXD_0[1]
+output, 334, 294, 0, __bypass__, TXD_0[2]
+output, 334, 292, 0, __bypass__, TXD_0[3]
+output, 202, 643, 0, __bypass__, TXD_0[4]
+output, 200, 643, 0, __bypass__, TXD_0[5]
+output, 334, 295, 0, __bypass__, TXD_0[6]
+output, 334, 292, 2, __bypass__, TXD_0[7]
+output, 334, 303, 2, __bypass__, TXEN_0
+output, 334, 304, 0, __bypass__, TXER_0

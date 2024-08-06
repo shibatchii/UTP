@@ -1,0 +1,31 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307.5.10 
+Date: Sat Jul 06 19:04:22 2024
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti180M484
+Top-level Entity Name: UDP
+
+
+---------- GBUFCE Assignments (begin) ----------
+
+
++---------------------------------+----------+----------+
+|            Clock Net            | GBUFCE_X | GBUFCE_Y |
++---------------------------------+----------+----------+
+|             I2C_CLK             |   333    |   323    |
+|           PLL_RCLK_0            |   333    |   321    |
+|          PLL_RCLK_0_90          |   333    |   324    |
+|             RCLK_0              |   333    |   318    |
+| edb_top_inst/bscan_TCK_buffered |   333    |   325    |
++---------------------------------+----------+----------+
+
+
+----------- GBUFCE Assignments (end) ----------
+
+
+Elapsed time for routing: 0 hours 0 minutes 6 seconds
+Elapsed time for entire flow: 0 hours 1 minutes 33 seconds

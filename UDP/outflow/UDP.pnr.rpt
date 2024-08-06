@@ -1,0 +1,41 @@
+
+---------- Resource Summary (begin) ----------
+Inputs: 16 / 3706 (0.43%)
+Outputs: 30 / 4655 (0.64%)
+Global Clocks (GBUF): 5 / 32 (15.62%)
+Regional Clocks (RBUF): 0 / 48 (0.00%)
+	RBUF: Core: 0 / 32 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 2971 / 172800 (1.72%)
+	XLRs needed for Logic: 1460 / 172800 (0.84%)
+	XLRs needed for Logic + FF: 531 / 172800 (0.31%)
+	XLRs needed for Adder: 88 / 172800 (0.05%)
+	XLRs needed for Adder + FF: 233 / 172800 (0.13%)
+	XLRs needed for FF: 633 / 172800 (0.37%)
+	XLRs needed for SRL8: 26 / 32000 (0.08%)
+	XLRs needed for SRL8+FF: 0 / 32000 (0.00%)
+	XLRs needed for Routing: 0 / 172800 (0.00%)
+Memory Blocks: 105 / 1280 (8.20%)
+DSP Blocks: 0 / 640 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+
+---------- GBUFCE Assignments (begin) ----------
+
+
++---------------------------------+----------+----------+
+|            Clock Net            | GBUFCE_X | GBUFCE_Y |
++---------------------------------+----------+----------+
+|             I2C_CLK             |   333    |   323    |
+|           PLL_RCLK_0            |   333    |   321    |
+|          PLL_RCLK_0_90          |   333    |   324    |
+|             RCLK_0              |   333    |   318    |
+| edb_top_inst/bscan_TCK_buffered |   333    |   325    |
++---------------------------------+----------+----------+
+
+
+----------- GBUFCE Assignments (end) ----------
+
+

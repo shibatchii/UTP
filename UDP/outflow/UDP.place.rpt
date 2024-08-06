@@ -1,0 +1,163 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307.5.10 
+Date: Sat Jul 06 19:03:30 2024
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti180M484
+Top-level Entity Name: UDP
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 16 / 3706 (0.43%)
+Outputs: 30 / 4655 (0.64%)
+Global Clocks (GBUF): 5 / 32 (15.62%)
+Regional Clocks (RBUF): 0 / 48 (0.00%)
+	RBUF: Core: 0 / 32 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 2971 / 172800 (1.72%)
+	XLRs needed for Logic: 1460 / 172800 (0.84%)
+	XLRs needed for Logic + FF: 531 / 172800 (0.31%)
+	XLRs needed for Adder: 88 / 172800 (0.05%)
+	XLRs needed for Adder + FF: 233 / 172800 (0.13%)
+	XLRs needed for FF: 633 / 172800 (0.37%)
+	XLRs needed for SRL8: 26 / 32000 (0.08%)
+	XLRs needed for SRL8+FF: 0 / 32000 (0.00%)
+	XLRs needed for Routing: 0 / 172800 (0.00%)
+Memory Blocks: 105 / 1280 (8.20%)
+DSP Blocks: 0 / 640 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- Simple Dual Port RAM Information (begin) ----------
+
++------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                                           NAME                                           | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                      udp_gmii_fifo/u_efx_fifo_top/xefx_fifo_ram/ram                      | SDP  |     8      |      8      | READ_UNKNOWN |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c02   | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b032  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0302  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b03b12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c0b12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c012  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c0c12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c0d12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c0e12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c0f12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c0g12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c0h12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c0i12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c0j12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c0k12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c0l1  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b0312  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b03c12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b03d12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b03e12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b03f12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b03g12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b03h12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b03i12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b03j12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b03k12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b03l1  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0b32  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3b02  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0b3b12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$030b12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$03012  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$030c12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$030d12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$030e12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$030f12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$030g12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$030h12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$030i12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$030j12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$030k12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$030l1  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0b312  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0b3c12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0b3d12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0b3e12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0b3f12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0b3g12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0b3h12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0b3i12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0b3j12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0b3k12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$0b3l1  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3032  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b302  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$303b12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3b0b12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3b012  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3b0c12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3b0d12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3b0e12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3b0f12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3b0g12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3b0h12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3b0i12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3b0j12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3b0k12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$3b0l1  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$30312  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$303c12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$303d12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$303e12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$303f12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$303g12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$303h12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$303i12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$303j12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$303k12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$303l1  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c32   | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c3b12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b30b12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b3012  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b30c12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b30d12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b30e12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b30f12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b30g12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b30h12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b30i12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b30j12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b30k12 | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$b30l1  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c312  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c3c12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c3d12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c3e12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c3f12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c3g12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c3h12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c3i12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c3j12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+| edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c3k12  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
+|  edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/simple_dual_port_ram_inst/ram__D$c3l1  | SDP  |     1      |      1      |  READ_FIRST  |   false    |
++------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+
+----------- Simple Dual Port RAM Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|    jtag_inst1_DRCK     |    Input     |
+|     jtag_inst1_TMS     |    Input     |
+|   jtag_inst1_RUNTEST   |    Input     |
+|       RSTN_0_IN        |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 47 seconds
